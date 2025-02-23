@@ -1,0 +1,506 @@
+[
+  {
+    "imagem": "/img/ValveCompletePack.jpg",
+    "titulo": "Valve Complete Pack",
+    "descricao": "Os mais clássicos jogos da valve em um só pacote.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/232/Valve_Complete_Pack/"
+  },
+  {
+    "imagem": "/img/Zupqop.jpg",
+    "titulo": "Pacote do ZUP-QOP!",
+    "descricao": "Jogos de Puzzle Desenvolvida pela Quiet River.",
+    "quantidade": "22 Jogos",
+    "link": "https://store.steampowered.com/bundle/5607/Zupqop/"
+  },
+  {
+    "imagem": "/img/PG.jpg",
+    "titulo": "Pacote de Puzzle Games.",
+    "descricao": "Jogos de Puzzle Desenvolvida pela Sprovieri Games.",
+    "quantidade": "6 Jogos",
+    "link": "https://store.steampowered.com/bundle/21458/Puzzle_Games/"
+  },
+  {
+    "imagem": "/img/DDA.jpg",
+    "titulo": "Dungeon Defenders and Awakened Bundle",
+    "descricao": "Com este pacote, você receberá Dungeon Defenders e Dungeon Defenders: Awakened!",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/27880/Dungeon_Defenders_and_Awakened_Bundle/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote MYSTERY BUNDLE",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "15 Jogos",
+    "link": "https://store.steampowered.com/bundle/11512/Mystery_Bundle/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/11022/20_Games_Bundle/"
+  },
+  {
+    "imagem": "/img/MDB.jpg",
+    "titulo": "Mega Discount Bundle",
+    "descricao": "Jogos VR desenvolvidos e distribuídos pela Whale Rock Games.",
+    "quantidade": "3 Jogos",
+    "link": "https://store.steampowered.com/bundle/5607/Zupqop/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 2",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "19 Jogos",
+    "link": "https://store.steampowered.com/bundle/15721/20_Games_Bundle_vol_2/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 3",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "19 Jogos",
+    "link": "https://store.steampowered.com/bundle/16145/20_Games_Bundle_vol_3/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 4",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/18619/20_Games_Bundle_vol_4/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 5",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/18620/20_Games_Bundle_vol_5/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 6",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/20450/20_Games_Bundle_vol_6/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 7",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/21257/20_Games_Bundle_vol_7/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 8",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "19 Jogos",
+    "link": "https://store.steampowered.com/bundle/24510/20_Games_Bundle_vol_8/"
+  },
+  {
+    "imagem": "/img/8Floor.jpg",
+    "titulo": "Pacote 20 Games Bundle vol. 9",
+    "descricao": "Vários gêneros diferentes em só um único pacote, desenvolvido pela 8Floor.",
+    "quantidade": "20 Jogos",
+    "link": "https://store.steampowered.com/bundle/24512/20_Games_Bundle_vol_9/"
+  },
+  {
+    "imagem": "/img/BBB.jpg",
+    "titulo": "Build & Benchmark Bundle",
+    "descricao": "O maior simulador de montagem de Pc, mais o incrível software 3DMark.",
+    "quantidade": "2 Jogos + 17 Itens",
+    "link": "https://store.steampowered.com/bundle/24510/20_Games_Bundle_vol_8/"
+  },
+  {
+    "imagem": "/img/DLAC.jpg",
+    "titulo": "Dying Light Anniversary Collection",
+    "descricao": "Um dos maiores jogos de apocalipse zumbi. Desenvolvido pela Techland.",
+    "quantidade": "2 Jogos + 8 itens",
+    "link": "https://store.steampowered.com/bundle/49425/Dying_Light_Anniversary_Collection/"
+  },
+  {
+    "imagem": "/img/BTHC.jpg",
+    "titulo": "Bloober Team Horror Collection",
+    "descricao": "Um pacote incrível com vários jogos de horror. Desenvolvido pela Bloober Team.",
+    "quantidade": "5 Jogos",
+    "link": "https://store.steampowered.com/bundle/11803/Bloober_Team_Horror_Collection/"
+  },
+  {
+    "imagem": "/img/QDC.jpg",
+    "titulo": "Quantic Dream Collection",
+    "descricao": "Jogos nível cinematoráficos desenvolvidos pela Quantic Dream.",
+    "quantidade": "4 Jogos",
+    "link": "https://store.steampowered.com/bundle/14936/Quantic_Dream_Collection/"
+  },
+  {
+    "imagem": "/img/SECP.jpg",
+    "titulo": "Sniper Elite Complete Pack",
+    "descricao": "Melhores jogos para se tornar melhor sniper do mundo. Desenvolvido pela Rebellion.",
+    "quantidade": "5 Jogos",
+    "link": "https://store.steampowered.com/bundle/3293/Sniper_Elite_Complete_Pack/"
+  },
+  {
+    "imagem": "/img/AUCC.jpg",
+    "titulo": "Arrowhead Ultimate Co-op Collection",
+    "descricao": "Uma boa coletânea de jogos de RPG. Desenvolvido pela Arrowhead Game Studios.",
+    "quantidade": "3 Jogos",
+    "link": "https://store.steampowered.com/bundle/11869/Arrowhead_Ultimate_Coop_Collection/"
+  },
+  {
+    "imagem": "/img/CMM.jpg",
+    "titulo": "Children of Morta x Magicka 2",
+    "descricao": "Se especializa em se um grande mago ou um grande guerreiro, desenvolvido pela Dead Mage e Arrowhead Game Studios.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/37354/Children_of_Morta_x_Magicka_2/"
+  },
+  {
+    "imagem": "/img/FPPB.jpg",
+    "titulo": "First Person Puzzle Bundle",
+    "descricao": "Jogos que vão quebrar a lógica e compreensão do jogador, desenvolvido pela Croteam.",
+    "quantidade": "5 Jogos",
+    "link": "https://store.steampowered.com/bundle/31753/First_Person_Puzzle_Bundle/"
+  },
+  {
+    "imagem": "/img/SRRB.jpg",
+    "titulo": "Slime Rancher Rainbow Bundle",
+    "descricao": "Amante de slimes esse é para vocês desenvolvido pela Monomi Park.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/34278/Slime_Rancher_Rainbow_Bundle/"
+  },
+  {
+    "imagem": "/img/WDB.jpg",
+    "titulo": "Watch_Dogs Bundle",
+    "descricao": "Amantes de jogos de hacker, esse é para vocês desenvolvido pela Ubisoft.",
+    "quantidade": "3 Jogos",
+    "link": "https://store.steampowered.com/bundle/3785/Watch_Dogs_Bundle/"
+  },
+  {
+    "imagem": "/img/CC.jpg",
+    "titulo": "Citystate I & Citystate II",
+    "descricao": "Amantes de administração de cidades esse jogo é perfeito para você desenvolvido pela Citystate Devs.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/28477/Citystate_I__Citystate_II/"
+  },
+  {
+    "imagem": "/img/TAB.jpg",
+    "titulo": "Thunderful Adventure Bundle",
+    "descricao": "Jogo que você vaisentir a sensação de vivência de novo, desenvolvido pela Thunderful.",
+    "quantidade": "3 Jogos",
+    "link": "https://store.steampowered.com/bundle/40727/Thunderful_Adventure_Bundle/"
+  },
+  {
+    "imagem": "/img/GRB.jpg",
+    "titulo": "Ghost Recon Bundle",
+    "descricao": "Se torne o melhor militar de todos um incrível Ghost Recon, desenvolvido pela Ubisoft.",
+    "quantidade": "6 Jogos",
+    "link": "https://store.steampowered.com/bundle/33611/Ghost_Recon_Bundle/"
+  },
+  {
+    "imagem": "/img/AHTET.jpg",
+    "titulo": "Alien Hominid: The Extra Terrestrial",
+    "descricao": "Jogos de plataforma para você jogar com seu amigo, desenvolvido pela The Behemoth.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/34943/Alien_Hominid_The_Extra_Terrestrial/"
+  },
+  {
+    "imagem": "/img/SWT.jpg",
+    "titulo": "Shadow Warrior Trilogy",
+    "descricao": "Se torne o maior Samurai de todos os tempos, desenvolvido pela Devolver Digital.",
+    "quantidade": "4 Jogos",
+    "link": "https://store.steampowered.com/bundle/24682/Shadow_Warrior_Trilogy/"
+  },
+  {
+    "imagem": "/img/RRDC.jpg",
+    "titulo": "Risk of Rain 2 x Dead Cells",
+    "descricao": "Incrível jogo de exploração aventura e sobrevivência, desenvolvido pela Hopoo Games e Motion Twin.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/40664/Risk_of_Rain_2_x_Dead_Cells/"
+  },
+  {
+    "imagem": "/img/AC.jpg",
+    "titulo": "Activision® Collection",
+    "descricao": "Um dos maiores packs de jogos de todos os tempos, desenvolvido pela Activision.",
+    "quantidade": "53 Jogos",
+    "link": "https://store.steampowered.com/bundle/6451/Activision_Collection/"
+  },
+  {
+    "imagem": "/img/CFE.jpg",
+    "titulo": "Complete Flipping Experience",
+    "descricao": "Te torne o melhor arquiteto entre os melhores, desenvolvido pela Frozen District.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/37363/Complete_Flipping_Experience/"
+  },
+  {
+    "imagem": "/img/ST.jpg",
+    "titulo": "Survive Together",
+    "descricao": "Sobreviva nas maiores entrelinhas dimensionais desenvolvido pela Triiodide Studios, ZTEK Studio.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/43972/Survive_Together/"
+  },  
+  {
+    "imagem": "/img/WLB.jpg",
+    "titulo": "Wizard of Legend Bundle",
+    "descricao": "Se torne um mágico mais lendário de todos os tempos, desenvolvido pela Contingent99.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/46105/Wizard_of_Legend_Bundle/"
+  },
+  {
+    "imagem": "/img/IGB.jpg",
+    "titulo": "Indie Game Bundle",
+    "descricao": "Uma coletânea gigantesca de jogos indie, desenvolvido pela HH-Games.",
+    "quantidade": "70 Jogos",
+    "link": "https://store.steampowered.com/bundle/10606/Indie_Game_Bundle/"
+  },
+  {
+    "imagem": "/img/KIGB.jpg",
+    "titulo": "KOREAN INDIE GAME BUNDLE",
+    "descricao": "Uma coletâneacom uma grande quantidade de jogos.",
+    "quantidade": "12 Jogos",
+    "link": "https://store.steampowered.com/bundle/35263/KOREAN_INDIE_GAME_BUNDLE/"
+  },
+  {
+    "imagem": "/img/CIGB.jpg",
+    "titulo": "Casual & Indie Game Bundle",
+    "descricao": "Uma coletânea de jogos para as pessoas casuais.",
+    "quantidade": "52 Jogos",
+    "link": "https://store.steampowered.com/bundle/12170/Casual__Indie_Game_Bundle/"
+  },
+  {
+    "imagem": "/img/KGMC.jpg",
+    "titulo": "[KGMC] Dark GameMaker Indie Game Bundle",
+    "descricao": "Este é um pacote de jogos indie da KGMC, uma comunidade coreana de desenvolvedores de jogos indie que usa o GameMaker.",
+    "quantidade": "4 Jogos",
+    "link": "https://store.steampowered.com/bundle/44708/KGMC_Dark_GameMaker_Indie_Game_Bundle/"
+  },
+  {
+    "imagem": "/img/KIGB2.jpg",
+    "titulo": "Khud0's Indie Game Bundle",
+    "descricao": "Não sabe o que jogar hoje? Não se preocupe, Khud0 tem tudo o que você precisa! Este pacote contém uma grande variedade de jogos indie para aqueles que querem diversificar sua experiência de jogo.",
+    "quantidade": "10 Jogos",
+    "link": "https://store.steampowered.com/bundle/15522/Khud0s_Indie_Game_Bundle/"
+  },
+  {
+    "imagem": "/img/IGTMB.jpg",
+    "titulo": "Indie Game The Movie Bundle",
+    "descricao": "3 jogos incríveis indie que vão fazer você se divertir por horas.",
+    "quantidade": "3 Jogos + 1 DLC",
+    "link": "https://store.steampowered.com/bundle/2459/Indie_Game_The_Movie_Bundle/"
+  },
+  {
+    "imagem": "/img/PJC.jpg",
+    "titulo": "Pacote Jogos De Ação",
+    "descricao": "Neste pacote, você encontrará uma ótima mistura dos melhores jogos multijogador e para um jogador.",
+    "quantidade": "5 Jogos",
+    "link": "https://store.steampowered.com/bundle/27821/Jogos_De_Ao/"
+  },
+  {
+    "imagem": "/img/LM.jpg",
+    "titulo": "Lost in Mystery",
+    "descricao": "Para os amantes de quebra-cabeças e mistérios, o pacote Lost in Mystery combina dois jogos de aventura indie aclamados e amados pela crítica que colocam sua história em primeiro lugar.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/36747/Lost_in_Mystery/"
+  },  
+  {
+    "imagem": "/img/UIGB.jpg",
+    "titulo": "Ukrainian Indie Games Bundle",
+    "descricao": "Jogos de desenvolvedores ucranianos com localização ucraniana o dinheiro da venda ajudará os ucranianos nestes tempos difíceis.",
+    "quantidade": "8 Jogos",
+    "link": "https://store.steampowered.com/bundle/25237/Ukrainian_Indie_Games_Bundle/"
+  },
+  {
+    "imagem": "/img/UIGB.jpg",
+    "titulo": "Ukrainian Indie Games Bundle #2",
+    "descricao": "Jogos de desenvolvedores ucranianos com localização ucraniana o dinheiro da venda ajudará os ucranianos nestes tempos difíceis.",
+    "quantidade": "6 Jogos",
+    "link": "https://store.steampowered.com/bundle/25311/Ukrainian_Indie_Games_Bundle_2/"
+  },
+  {
+    "imagem": "/img/GTT.jpg",
+    "titulo": "Game Thief Tycoon",
+    "descricao": "Adiciona 2 jogos com temáticas diferentes um sobre desenvolvimento de jogos e outro sobre roubo, desenvolvido pela AM Playhouse.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/45732/Game_Thief_Tycoon/"
+  },  
+  {
+    "imagem": "/img/ERD.jpg",
+    "titulo": "Everhood + Rhythm Doctor",
+    "descricao": "Complete seu conjunto de sucessos indie ricos em história e baseados em música! Este pacote inclui Everhood e Rhythm Doctor.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/26852/Everhood__Rhythm_Doctor/"
+  },
+  {
+    "imagem": "/img/PRN.jpg",
+    "titulo": "PUMPKIN RIPPER + NEVERMORE",
+    "descricao": "Neste pacote especial, você terá acesso a dois jogos de ação e aventura com temas sombrios e uma linda pixelart.",
+    "quantidade": "2 Jogos",
+    "link": "https://store.steampowered.com/bundle/29720/PUMPKIN_RIPPER__NEVERMORE/"
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },  
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  },
+  {
+    "imagem": "/img/.jpg",
+    "titulo": "",
+    "descricao": "",
+    "quantidade": "2 Jogos",
+    "link": ""
+  }
+]
