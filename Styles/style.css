@@ -1,6 +1,7 @@
 @import url("/Styles/header.css");
 @import url("/Styles/StyleCrédito.css");
 @import url("/Styles/Card.css");
+@import url("/Styles/Modal.css");
 
 :root {
   --branco-neve: #e0e0e0;
