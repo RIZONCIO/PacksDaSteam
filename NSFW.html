@@ -8,23 +8,31 @@
     <link rel="stylesheet" href="/Styles/style.css" />
   </head>
   <body>
+    <!-- Modal de Verificação de Idade -->
     <div id="ageVerificationModal">
       <div class="modal-content">
         <h2>Verificação de Idade</h2>
         <p>
-          Este site contém conteúdo adulto e é destinado apenas a maiores de 18
-          anos.
+          Esta página contém material com restrição de idade , incluindo nudez e
+          imagens apelativas.
         </p>
         <p>
-          Eu não me responsabilizo se você for menor de idade e acessar este
-          conteúdo.
+          Ao se registrar você afirma que tem pelo menos 18 anos de idade ou
+          maioridade na jurisdição de onde está acessando esse site e que
+          concede em visualizar conteúdo sexualmente explícito.
         </p>
-        <button id="confirmAge">Tenho mais de 18 anos</button>
+        <label for="birthdate">Insira sua data de nascimento:</label>
+        <input type="date" id="birthdate" name="birthdate" required />
+        <button id="confirmAge">Confirmar</button>
         <button id="denyAge">Sou menor de idade</button>
+        <p id="errorMessage" style="color: red; display: none">
+          Você deve ter pelo menos 18 anos para acessar este site.
+        </p>
       </div>
     </div>
+
     <header class="header">
-      <h1>🤐 Lista De Todos Os Packs De Jogos NSFW Da Steam 🤐</h1>
+      <h1>🤐 NSFW Steam Bundle Set 🤐</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>

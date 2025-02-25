@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data/packs.json") // Caminho do  JSON
+  fetch("/data/packs.json")
     .then((response) => response.json())
     .then((data) => gerarCards(data))
     .catch((error) => console.error("Erro ao carregar o JSON:", error));
