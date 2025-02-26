@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todos os Packs da Steam</title>
-    <link rel="stylesheet" href="/Styles/reset.css" />
-    <link rel="stylesheet" href="/Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/reset.css" />
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/Card.css" />
   </head>
   <body>
     <header class="header">
@@ -20,9 +21,11 @@
     </header>
     <main>
       <section class="filters-container"></section>
-      <section class="cards-container"></section>
+      <section class="cards-container" id="bundles"></section>
+      <section id="pagination" class="pagination-container"></section>
     </main>
-    <script type="module" src="/JS/app.js"></script>
-    <script type="module" src="/JS/Filtros.js"></script>
+    <script type="module" src="./JS/app.js"></script>
+    <script type="module" src="./JS/Filtros.js"></script>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
