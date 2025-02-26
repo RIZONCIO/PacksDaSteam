@@ -1,0 +1,71 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+  padding: 2rem;
+}
+
+.catalog-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 60rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  font-size: 1.5rem;
+  border: 4px solid var(--bordar-cinza);
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.search-input:hover {
+  border-color: var(--cor-de-buttontrue);
+  box-shadow: 0 0.5rem 1rem var(--brilho-azul);
+}
+
+.search-input:focus {
+  border-color: var(--cor-de-buttontrue);
+  box-shadow: 0 0.5rem 1rem var(--brilho-azul);
+}
+
+.search-icon {
+  position: absolute;
+  right: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* Não interfere na interação com o input (Mathues Quando você for Aplicar função de botão para pesquisar editar!) */
+}
+
+.search-icon svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--bordar-cinza);
+  transition: transform 0.2s ease, fill 0.3s ease;
+}
+
+.search-input:hover ~ .search-icon svg {
+  transform: scale(1.1);
+  fill: var(--bg-card);
+}
+
+.search-input {
+  padding-right: 3.5rem;
+}

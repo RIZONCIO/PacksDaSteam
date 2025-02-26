@@ -1,49 +1,68 @@
-.filter-container {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
+/* Estilo do contêiner principal */
+.filtro-container {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  max-height: 50%;
+  padding: 2rem;
 }
 
-.dropdown {
-  position: relative;
-  padding: 8px 15px;
-  background: #2a2a2a;
-  border-radius: 4px;
-  cursor: pointer;
+/* Estilo do cabeçalho de resultados e do dropdown "Listar por" */
+.filtro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resultados {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listar-por {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #333;
+.listar-por select {
+  padding: 0.5rem;
   border-radius: 4px;
-  padding: 10px;
-  margin-top: 5px;
-  display: none;
-  min-width: 150px;
-  z-index: 100;
+  border: none;
 }
 
-.dropdown-menu.show {
+/* Estilo dos filtros */
+.filtros-wrapper {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.filtro-item {
+  flex: 1;
+  min-width: 120px;
+  position: relative;
+}
+
+.filtro-item span {
   display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.dropdown-item {
-  padding: 8px 12px;
-  border-radius: 3px;
+.filtro-item select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.dropdown-item:hover {
-  background: #404040;
-}
-
-.search-container {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 0 20px;
+/* Estilos para responsividade */
+@media (max-width: 768px) {
+  .filtros-wrapper {
+    flex-direction: column;
+  }
 }

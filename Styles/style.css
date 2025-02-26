@@ -1,7 +1,8 @@
-@import url("/Styles/header.css");
+@import url("/Styles/Header.css");
 @import url("/Styles/StyleCrédito.css");
 @import url("/Styles/Card.css");
 @import url("/Styles/Modal.css");
+@import url("/Styles/Buscardor.css");
 @import url("/Styles/Filtros.css");
 
 :root {
@@ -12,7 +13,9 @@
   --cor-do-bg: #121212;
   --bg-card: #1f1f1f;
   --font-cor: #c7d5e0;
+  --bordar-cinza: #d1d5db;
   --cor-de-buttontrue: #66c0f4;
+  --brilho-azul: rgb(102, 192, 244, 0.8);
   --cor-de-buttonfalse: #e6796c;
 }
 
