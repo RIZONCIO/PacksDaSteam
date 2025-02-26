@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   modal.style.display = "flex";
 
-  // Função para calcular a idade ("IA")
   function calculateAge(birthdate) {
     const today = new Date();
     const birthDate = new Date(birthdate);

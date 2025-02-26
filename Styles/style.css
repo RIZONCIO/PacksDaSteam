@@ -2,6 +2,7 @@
 @import url("/Styles/StyleCrédito.css");
 @import url("/Styles/Card.css");
 @import url("/Styles/Modal.css");
+@import url("/Styles/Filtros.css");
 
 :root {
   --branco-neve: #e0e0e0;
@@ -9,6 +10,8 @@
   --bg-header: #171a21;
   --cor-bordar: #121417;
   --cor-do-bg: #121212;
+  --bg-card: #1f1f1f;
+  --font-cor: #c7d5e0;
   --cor-de-buttontrue: #66c0f4;
   --cor-de-buttonfalse: #e6796c;
 }

@@ -1,0 +1,49 @@
+.filter-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.dropdown {
+  position: relative;
+  padding: 8px 15px;
+  background: #2a2a2a;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #333;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 5px;
+  display: none;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #404040;
+}
+
+.search-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
