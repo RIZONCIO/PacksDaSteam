@@ -1,13 +1,9 @@
-/* Estilo do contêiner principal */
 .filtro-container {
   padding: 20px;
-  border-radius: 8px;
   color: white;
   max-height: 50%;
-  padding: 2rem;
 }
 
-/* Estilo do cabeçalho de resultados e do dropdown "Listar por" */
 .filtro-header {
   display: flex;
   justify-content: space-between;
@@ -30,37 +26,122 @@
   padding: 0.5rem;
   border-radius: 4px;
   border: none;
+  background-color: var(--bg-header, #333);
+  color: var(--font-cor);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
-/* Estilo dos filtros */
+.listar-por option {
+  background-color: var(--bg-card);
+  color: var(--font-cor);
+}
+
 .filtros-wrapper {
   display: flex;
-  gap: 10px;
-  overflow-x: auto;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .filtro-item {
-  flex: 1;
-  min-width: 120px;
   position: relative;
 }
 
-.filtro-item span {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.filtro-item select {
-  width: 100%;
-  padding: 8px;
-  border-radius: 6px;
+.filtro-btn {
+  background-color: var(--bg-header, #333);
+  color: var(--font-cor);
+  padding: 15px 25px;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
-  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-/* Estilos para responsividade */
+.filtro-btn:hover {
+  background-color: var(--bg-card);
+}
+
+.filtro-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg-card);
+  color: var(--font-cor);
+  list-style: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 11px 15px;
+  min-width: 140%;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.filtro-dropdown input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--bd-checkbox);
+  background: var(--cor-da-track);
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.filtro-dropdown input[type="checkbox"]:checked {
+  background: var(--cor-checked);
+  border: 2px solid var(--cor-bd-checked);
+}
+
+.filtro-dropdown input[type="checkbox"]:hover {
+  background: var(--cor-hover-checked);
+}
+
+.filtro-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.filtro-dropdown::-webkit-scrollbar-track {
+  background: var(--cor-da-track);
+  border-radius: 10px;
+}
+
+.filtro-dropdown::-webkit-scrollbar-thumb {
+  background: var(--cor-da-handle);
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.filtro-dropdown::-webkit-scrollbar-thumb:hover {
+  background: var(--eft-do-track);
+}
+
+.filtro-dropdown.ativo {
+  display: block;
+}
+
+.filtro-dropdown li {
+  padding: 5px;
+}
+
+.filtro-dropdown label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.filtro-dropdown input {
+  cursor: pointer;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
   .filtros-wrapper {
     flex-direction: column;

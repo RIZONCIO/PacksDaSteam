@@ -18,7 +18,7 @@ function gerarCards(packs) {
               <h3>${pack.titulo}</h3>
               <p>${pack.descricao}</p>
               <span class="quantidade">${pack.quantidade}</span>
-              <a href="${pack.link}" target="_blank" rel="noopener noreferrer">Ver na Steam</a>
+              <a href="${pack.link}" target="_blank">Ver na Steam</a>
           </div>
       `;
     container.appendChild(card);

@@ -4,6 +4,7 @@
 @import url("/Styles/Modal.css");
 @import url("/Styles/Buscardor.css");
 @import url("/Styles/Filtros.css");
+@import url("/Styles/Carousel.css");
 
 :root {
   --branco-neve: #e0e0e0;
@@ -17,6 +18,13 @@
   --cor-de-buttontrue: #66c0f4;
   --brilho-azul: rgb(102, 192, 244, 0.8);
   --cor-de-buttonfalse: #e6796c;
+  --cor-da-track: rgba(255, 255, 255, 0.1);
+  --cor-da-handle: rgba(255, 255, 255, 0.4);
+  --eft-do-track: rgba(255, 255, 255, 0.6);
+  --bd-checkbox: rgba(255, 255, 255, 0.5);
+  --cor-checked: rgb(102, 192, 244, 0.8);
+  --cor-bd-checked: rgba(255, 255, 255, 1);
+  --cor-hover-checked: rgba(255, 255, 255, 0.3);
 }
 
 body {
