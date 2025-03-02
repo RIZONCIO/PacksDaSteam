@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <div class="carousel">
       <button class="carousel-btn carousel-prev">&#10094;</button>
       <a href="#" class="carousel-link">
-          <img src="img1.jpg" alt="Slide 1" class="carousel-image">
+          <img src="/img/banner1.png" alt="Slide 1" class="carousel-image">
       </a>
       <button class="carousel-btn carousel-next">&#10095;</button>
       <div class="carousel-dots"></div>
@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 `;
 
   const images = [
-    { src: "/img/test.jpg", link: "#" },
-    { src: "img2.jpg", link: "#" },
-    { src: "img3.jpg", link: "#" },
+    { src: "/img/banner1.png", link: "#" },
+    { src: "/img/banner1.png", link: "#" },
+    { src: "/img/banner1.png", link: "#" },
   ];
 
   let currentIndex = 0;
