@@ -53,18 +53,19 @@
 .title-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
   position: relative;
   z-index: 3;
 }
 
 .header h1 {
+  display: flex;
+  align-items: center;
   margin: 0;
   font-size: 1.5rem;
   color: #ffffff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  display: flex;
 }
 
 .header img {

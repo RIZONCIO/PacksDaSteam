@@ -44,12 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCarousel();
   };
 
-  document.querySelector(".prev-btn").addEventListener("click", () => {
+  // CORREÇÃO AQUI: Agora está pegando as classes corretas dos botões
+  document.querySelector(".carousel-prev").addEventListener("click", () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     updateCarousel();
   });
 
-  document.querySelector(".next-btn").addEventListener("click", () => {
+  document.querySelector(".carousel-next").addEventListener("click", () => {
     currentIndex = (currentIndex + 1) % images.length;
     updateCarousel();
   });

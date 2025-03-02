@@ -3,21 +3,25 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 100%;
   max-width: 1080px;
+  max-height: 1080px;
   margin: 40px auto 40px auto;
   overflow: hidden;
 }
 
 .carousel {
   position: relative;
-  width: 100%;
+  max-width: 1090px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel img {
-  width: 100%;
+  width: 70%;
   display: block;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .carousel-btn {
@@ -45,7 +49,7 @@
   position: absolute;
   bottom: 10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-60%);
 }
 
 .dot {
