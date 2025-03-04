@@ -18,7 +18,7 @@
 }
 
 .carousel img {
-  width: 70%;
+  width: 80%;
   display: block;
   border-radius: 10px;
   margin: 0 auto;
@@ -33,7 +33,7 @@
   border: none;
   cursor: pointer;
   padding: 10px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .carousel-prev {

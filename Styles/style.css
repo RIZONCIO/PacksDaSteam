@@ -5,6 +5,7 @@
 @import url("/Styles/Buscardor.css");
 @import url("/Styles/Filtros.css");
 @import url("/Styles/Carousel.css");
+@import url("/Styles/Darkmode.css");
 
 :root {
   --branco-neve: #e0e0e0;

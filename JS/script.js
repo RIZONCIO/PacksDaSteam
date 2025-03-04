@@ -1,6 +1,6 @@
 const endpoint = "http://localhost:3000/api/bundles-detailed";
 let currentPage = 1;
-const limit = 10;
+const limit = 15;
 let isLoading = false;
 let totalPages = 1;
 
