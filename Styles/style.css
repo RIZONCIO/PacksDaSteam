@@ -9,7 +9,8 @@
 
 :root {
   --branco-neve: #e0e0e0;
-  --preto-shadow: #121212;
+  --bg-dark: #121212;
+  --bg-light: #e8e8e8;
   --bg-header: #171a21;
   --cor-bordar: #121417;
   --cor-do-bg: #121212;
@@ -26,6 +27,14 @@
   --cor-checked: rgb(102, 192, 244, 0.8);
   --cor-bd-checked: rgba(255, 255, 255, 1);
   --cor-hover-checked: rgba(255, 255, 255, 0.3);
+  --bg-mode-light: #e0e0e0;
+  --bg-mode-dark: #151515;
+  --text-light: #424242;
+  --text-dark: #fff;
+  --switch-bg-light: #fff;
+  --switch-bg-dark: #3c3c3c;
+  --shadow-light: 0px 0px 8px 0px rgba(17, 17, 17, 0.34) inset;
+  --shadow-dark: 0px 0px 6px -2px #111;
 }
 
 body {
@@ -33,7 +42,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--preto-shadow);
+  background-color: var(--bg-light);
   color: var(--cor-do-bg);
   font-size: 16px;
 }

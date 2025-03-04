@@ -24,7 +24,7 @@
   border-radius: 50%;
   transform: translate(-50%, -50%);
   animation: flash-explosao 8s infinite;
-  z-index: 2;
+  z-index: 1;
 }
 
 @keyframes flash-explosao {
