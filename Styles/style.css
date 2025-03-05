@@ -6,6 +6,7 @@
 @import url("/Styles/Filtros.css");
 @import url("/Styles/Carousel.css");
 @import url("/Styles/Darkmode.css");
+@import url("/Styles/Footer.css");
 
 :root {
   --branco-neve: #e0e0e0;
@@ -27,6 +28,7 @@
   --cor-checked: rgb(102, 192, 244, 0.8);
   --cor-bd-checked: rgba(255, 255, 255, 1);
   --cor-hover-checked: rgba(255, 255, 255, 0.3);
+  --litra-footer: rgba(201, 201, 201, 0.479);
   --bg-mode-light: #e0e0e0;
   --bg-mode-dark: #151515;
   --text-light: #424242;
@@ -35,6 +37,9 @@
   --switch-bg-dark: #3c3c3c;
   --shadow-light: 0px 0px 8px 0px rgba(17, 17, 17, 0.34) inset;
   --shadow-dark: 0px 0px 6px -2px #111;
+  --font-título: "Roboto", sans-serif;
+  --font-text: "Open Sans", sans-serif;
+  --font-catálogo: "Poppins", sans-serif;
 }
 
 body {

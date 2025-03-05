@@ -17,6 +17,8 @@
 
 .card:hover {
   transform: translateY(-0.3125rem);
+  border-color: var(--cor-de-buttontrue);
+  box-shadow: 0 0.5rem 1rem var(--brilho-azul);
 }
 
 .card img {

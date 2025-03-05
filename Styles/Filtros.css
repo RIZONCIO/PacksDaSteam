@@ -15,6 +15,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--bg-dark);
+  font-family: var(--font-catálogo);
 }
 
 .listar-por {
