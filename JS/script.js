@@ -1,4 +1,4 @@
-const endpoint = "http://localhost:3000/api/bundles-detailed";
+const endpoint = "http://localhost:5005/api/bundles-detailed";
 let currentPage = 1;
 const limit = 20;
 let isLoading = false;
