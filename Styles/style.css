@@ -7,6 +7,7 @@
 @import url("/Styles/Carousel.css");
 @import url("/Styles/Darkmode.css");
 @import url("/Styles/Footer.css");
+@import url("/Styles/buttonLoadMore.css");
 
 :root {
   --branco-neve: #e0e0e0;

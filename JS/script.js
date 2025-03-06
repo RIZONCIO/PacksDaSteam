@@ -1,3 +1,5 @@
+import { displayBundles } from './displayBundles.js';
+
 const endpoint = "http://localhost:5005/api/bundles-detailed";
 let currentPage = 1;
 const limit = 20;
@@ -14,6 +16,8 @@ async function fetchBundles(page = 1) {
     }
     const data = await response.json();
     displayBundles(data);
+    currentPage = data.page;
+    totalPages = data.totalPages;
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
   } finally {
@@ -21,5 +25,4 @@ async function fetchBundles(page = 1) {
   }
 }
 
-
-
+export { fetchBundles, currentPage, totalPages, isLoading };
