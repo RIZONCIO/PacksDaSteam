@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const filtroContainer = document.querySelector(".filtro-container");
 
-  // Cabeçalho
   const header = document.createElement("div");
   header.className = "filtro-header";
   header.innerHTML = `
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   filtroContainer.appendChild(header);
 
-  // Lista de filtros e suas opções
   const filtros = {
     Sistema: ["Windows", "Linux-SteamOS"],
     Tipo: ["Jogo Completo", "DLC", "Pacote de Moeda", "Jogos Adultos"],
@@ -114,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Fecha os dropdowns ao clicar fora
   document.addEventListener("click", () => {
     document.querySelectorAll(".filtro-dropdown").forEach((menu) => {
       menu.classList.remove("ativo");

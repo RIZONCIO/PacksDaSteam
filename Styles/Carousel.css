@@ -3,15 +3,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  max-width: 1080px;
-  max-height: 1080px;
-  margin: 40px auto 40px auto;
+  max-width: 67.5rem;
+  max-height: 67.5rem;
+  margin: 2.5rem auto;
   overflow: hidden;
 }
 
 .carousel {
   position: relative;
-  max-width: 1090px;
+  max-width: 68.125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
 .carousel img {
   width: 80%;
   display: block;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   margin: 0 auto;
 }
 
@@ -32,30 +32,30 @@
   color: white;
   border: none;
   cursor: pointer;
-  padding: 10px;
-  font-size: 24px;
+  padding: 0.625rem;
+  font-size: 1.5rem;
 }
 
 .carousel-prev {
-  left: 10px;
+  left: 0.625rem;
 }
 
 .carousel-next {
-  right: 10px;
+  right: 0.625rem;
 }
 
 .carousel-dots {
   text-align: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 0.625rem;
   left: 50%;
   transform: translateX(-60%);
 }
 
 .dot {
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
+  height: 0.625rem;
+  width: 0.625rem;
+  margin: 0 0.3125rem;
   background-color: gray;
   border-radius: 50%;
   display: inline-block;
@@ -64,4 +64,30 @@
 
 .dot.active {
   background-color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .banner-oferta {
+    max-width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  .carousel {
+    max-width: 95%;
+  }
+
+  .carousel img {
+    width: 90%;
+  }
+
+  .carousel-btn {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+
+  .dot {
+    height: 0.5rem;
+    width: 0.5rem;
+  }
 }

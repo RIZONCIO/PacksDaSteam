@@ -1,5 +1,4 @@
 @import url("/Styles/Header.css");
-@import url("/Styles/StyleCrédito.css");
 @import url("/Styles/Card.css");
 @import url("/Styles/Modal.css");
 @import url("/Styles/Buscardor.css");
@@ -40,15 +39,16 @@
   --shadow-dark: 0px 0px 6px -2px #111;
   --font-título: "Roboto", sans-serif;
   --font-text: "Open Sans", sans-serif;
-  --font-catálogo: "Poppins", sans-serif;
+  --font-textprimario: "Work Sans", sans-serif;
+  --font-destaque: "Poppins", sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-textprimario);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--bg-light);
   color: var(--cor-do-bg);
-  font-size: 16px;
+  font-size: 1rem;
 }

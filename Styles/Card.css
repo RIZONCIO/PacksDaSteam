@@ -36,11 +36,13 @@
 .card h3 {
   font-size: 1.2rem;
   margin: 0 0 0.625rem;
+  font-family: var(--font-título);
 }
 
 .card p {
   font-size: 0.9rem;
   margin: 0 0 0.625rem;
+  font-family: var(--font-text);
 }
 
 .card .quantidade {
@@ -68,7 +70,6 @@
   box-shadow: 0 0.25rem 0.75rem var(--brilho-azul);
 }
 
-/* Media Queries para responsividade */
 @media (min-width: 768px) {
   .cards-container {
     grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
