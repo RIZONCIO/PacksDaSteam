@@ -1,7 +1,7 @@
-import { fetchBundles, currentPage, totalPages, isLoading } from './script.js';
+import { fetchBundles, currentPage, totalPages, isLoading } from "./script.js";
 
 function handleScroll() {
-  const footer = document.querySelector('footer');
+  const footer = document.querySelector("footer");
   const footerHeight = footer.offsetHeight;
   const scrollPosition = window.innerHeight + window.scrollY;
   const documentHeight = document.body.offsetHeight - footerHeight;
@@ -19,7 +19,7 @@ function handleLoadMore() {
   if (!isLoading && currentPage < totalPages) {
     fetchBundles(currentPage + 1);
     window.addEventListener("scroll", handleScroll); // rolagem infinita após carregar mais
-    document.getElementById("loadMore").style.display = "none"; 
+    document.getElementById("loadMore").style.display = "none";
   }
 }
 

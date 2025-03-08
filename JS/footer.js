@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
       href: "https://steamcommunity.com/id/Link_The_Hero/",
       icon: "fa-brands fa-steam",
     },
+    {
+      href: "https://www.linkedin.com/in/",
+      icon: "fa-brands fa-linkedin",
+    },
   ]);
 
   const separator = document.createElement("div");
@@ -29,12 +33,24 @@ document.addEventListener("DOMContentLoaded", function () {
       href: "https://steamcommunity.com/profiles/76561198171340573/",
       icon: "fa-brands fa-steam",
     },
+    {
+      href: "https://www.linkedin.com/in/ryan-carvalho-783277292/",
+      icon: "fa-brands fa-linkedin",
+    },
+    {
+      href: "https://www.youtube.com/@rizoncioplays6085",
+      icon: "fa-brands fa-youtube",
+    },
+    {
+      href: "https://www.behance.net/rizoncioplays",
+      icon: "fa-brands fa-square-behance",
+    },
   ]);
 
   const siteLinks = document.createElement("div");
   siteLinks.classList.add("site-links");
   siteLinks.innerHTML = `
-        <a href="#">Sobre</a>
+        <a href="/Sobre.html">Sobre</a>
         <a href="#">Termos de Licença</a>
         <a href="#">Política de Privacidade</a>
         <a href="#">Contato</a>

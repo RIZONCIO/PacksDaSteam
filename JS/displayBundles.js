@@ -8,7 +8,10 @@ function displayBundles(data) {
       <div class="card-content">
         <h3>${bundle.Nome}</h3>
         <p>${bundle.description}</p>
-        <a href="${bundle.Link}" target="_blank" rel="noopener noreferrer">Ver na Steam</a>
+        <div class="preco-btn-container">
+          <p class="preco">R$ ${bundle.cost}</p>
+          <a href="${bundle.Link}" target="_blank" rel="noopener noreferrer">Ver na Steam</a>
+        </div>
       </div>
     `;
     bundlesDiv.appendChild(bundleDiv);
