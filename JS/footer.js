@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const siteLinks = document.createElement("div");
   siteLinks.classList.add("site-links");
   siteLinks.innerHTML = `
-        <a href="/Sobre.html">Sobre</a>
+        <a href="/page/Sobre.html">Sobre</a>
         <a href="#">Termos de Licença</a>
         <a href="#">Política de Privacidade</a>
         <a href="#">Contato</a>
