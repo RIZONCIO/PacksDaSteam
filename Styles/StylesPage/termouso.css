@@ -1,0 +1,25 @@
+.termos {
+  color: var(--bg-dark);
+  margin: 0 6.2rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.termos h1 {
+  font-family: var(--font-título);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.termos h2 {
+  font-family: var(--font-destaque);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.termos p {
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -51,9 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
   siteLinks.classList.add("site-links");
   siteLinks.innerHTML = `
         <a href="/page/Sobre.html">Sobre</a>
-        <a href="#">Termos de Licença</a>
+        <a href="/page/TermoUso.html">Termos de Uso</a>
         <a href="#">Política de Privacidade</a>
-        <a href="#">Contato</a>
+        <a href="#">Doação</a>
     `;
 
   const company = document.createElement("div");
