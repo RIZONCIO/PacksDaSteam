@@ -4,7 +4,7 @@
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }
 
 .termos h1 {
@@ -22,4 +22,21 @@
 .termos p {
   font-size: 16px;
   font-weight: 500;
+}
+
+.termos strong {
+  font-weight: bold;
+}
+
+.termos ul {
+  list-style: none;
+  padding-left: 1.2rem;
+  font-weight: 500;
+}
+
+.termos ul li::marker {
+  content: "• ";
+  color: var(--bg-dark);
+  font-size: 18px;
+  font-weight: bold;
 }
