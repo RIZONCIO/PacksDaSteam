@@ -9,7 +9,9 @@
 @import url("/Styles/buttonLoadMore.css");
 @import url("/Styles/StylesPage/Sobre.css");
 @import url("/Styles/StylesPage/Credito.css");
-@import url("/Styles/StylesPage/termouso.css");
+@import url("/Styles/StylesPage/Termouso.css");
+@import url("/Styles/StylesPage/Doacao.css");
+@import url("/Styles/StylesPage/QRCode.css");
 
 :root {
   --branco-neve: #e0e0e0;
@@ -20,6 +22,9 @@
   --cor-do-bg: #121212;
   --bg-card: #1f1f1f;
   --font-cor: #c7d5e0;
+  --font-cor2: rgb(255, 255, 0);
+  --neon-efc: rgba(255, 226, 76, 0.8), 0 0 10px rgba(255, 226, 76, 0.7),
+    0 0 20px rgba(255, 226, 76, 0.6), 0 0 40px rgba(255, 226, 76, 0.5);
   --bordar-cinza: #d1d5db;
   --cor-de-buttontrue: #66c0f4;
   --preco-cor: #00e205;

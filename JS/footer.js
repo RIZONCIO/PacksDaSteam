@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="/page/Sobre.html">Sobre</a>
         <a href="/page/TermoUso.html">Termos de Uso</a>
         <a href="#">Política de Privacidade</a>
-        <a href="#">Doação</a>
+        <a href="/page/Doacao.html">Doação</a>
     `;
 
   const company = document.createElement("div");

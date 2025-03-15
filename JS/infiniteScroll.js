@@ -18,7 +18,7 @@ function handleScroll() {
 function handleLoadMore() {
   if (!isLoading && currentPage < totalPages) {
     fetchBundles(currentPage + 1);
-    window.addEventListener("scroll", handleScroll); // rolagem infinita após carregar mais
+    window.addEventListener("scroll", handleScroll);
     document.getElementById("loadMore").style.display = "none";
   }
 }
