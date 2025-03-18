@@ -13,7 +13,7 @@
   background: rgba(0, 0, 0, 0.6);
   padding: 30px;
   border-radius: 10px;
-  color: white;
+  color: var(--branco-neve);
 }
 
 .banner-doacao h2,
@@ -26,7 +26,7 @@
   padding: 30px;
   border-radius: 10px;
   text-align: center;
-  color: white;
+  color: var(--branco-neve);
   max-width: 600px;
   margin: 20px auto;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -53,4 +53,80 @@
   font-weight: 500;
   text-shadow: 0 0 5px var(--neon-efc);
   animation: neon-glow 1.5s infinite alternate;
+}
+
+.doacao-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+}
+
+.doacao-card {
+  background: var(--bg-card);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem var(--neon-efc);
+  width: 300px;
+}
+
+.doacao-card h3,
+.doacao-card p {
+  color: var(--font-cor);
+  font-weight: 500;
+}
+
+.doacao-card img {
+  width: 200px;
+  height: 200px;
+  background-color: var(--branco-neve);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+#cripto-selecao {
+  appearance: none;
+  background: linear-gradient(45deg, #222, #333);
+  color: var(--branco-neve);
+  border: 2px solid #ff9900;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  width: 220px;
+  text-align: center;
+  outline: none;
+}
+
+#cripto-selecao::-ms-expand {
+  display: none;
+}
+
+#cripto-selecao:hover {
+  background: linear-gradient(45deg, #333, #444);
+  border-color: #ff6600;
+}
+
+#cripto-selecao option {
+  background-color: #222;
+  color: var(--branco-neve);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.btn-card-doacao {
+  background: var(--cor-do-bg);
+  color: var(--branco-neve);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-card-doacao:hover {
+  box-shadow: 0 0.5rem 1rem var(--neon-efc);
 }
