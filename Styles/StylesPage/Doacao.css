@@ -1,63 +1,95 @@
 .banner-principal {
   background: url("/img/doacao-banner1.png") center/cover no-repeat;
-  padding: 80px 20px;
-  border-radius: 15px;
+  padding: 5rem 1.25rem;
+  border-radius: 0.9375rem;
   text-align: center;
-  max-width: 800px;
-  margin: 20px auto;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);
+  max-width: 50rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 0 1.5625rem rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(0.4375rem);
 }
 
 .banner-doacao {
   background: rgba(0, 0, 0, 0.6);
-  padding: 30px;
-  border-radius: 10px;
+  padding: 1.875rem;
+  border-radius: 0.625rem;
   color: var(--branco-neve);
+}
+
+.lista-doacao {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista-doacao li {
+  font-size: 1.125rem;
+  font-weight: 560;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-cor2);
+  text-shadow: 0 0 0.3125rem var(--neon-efc);
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.lista-doacao li::before {
+  content: "•";
+  font-size: 1.125rem;
+  line-height: 1;
+  color: var(--neon-efc);
+  font-weight: bold;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 0.125rem;
 }
 
 .banner-doacao h2,
 .banner-doacao p {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 .banner-doacao {
   background: url("/img/doacao-banner2.png") center/cover no-repeat;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 1.875rem;
+  border-radius: 0.625rem;
   text-align: center;
   color: var(--branco-neve);
-  max-width: 600px;
-  margin: 20px auto;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(5px);
+  max-width: 37.5rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 0 1.25rem rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0.3125rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 
 .banner-doacao h1 {
   font-family: var(--font-título);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 10px;
+  text-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.625rem;
 }
 
 .banner-doacao h2 {
   font-family: var(--font-destaque);
-  font-size: 24px;
-  margin: 10px 0 10px 0;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  margin: 0.625rem 0 0.625rem 0;
+  text-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.5);
   font-weight: 600;
 }
 
 .banner-doacao p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0, 0, 0, 0.5);
 }
 
 .banner-doacao h1,
@@ -72,17 +104,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 60px;
+  gap: 1.25rem;
+  padding: 3.75rem;
 }
 
 .doacao-card {
   background: var(--bg-card);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   text-align: center;
   box-shadow: 0 0.5rem 1rem var(--neon-efc);
-  width: 300px;
+  width: 18.75rem;
 }
 
 .doacao-card h3,
@@ -92,11 +124,11 @@
 }
 
 .doacao-card img {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   background-color: var(--branco-neve);
   border-radius: 10px;
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .btn-card-doacao,
@@ -104,13 +136,13 @@
   display: block;
   width: 90%;
   text-decoration: none;
-  max-width: 250px;
+  max-width: 15.625rem;
   margin: 10px auto;
   background: var(--cor-do-bg);
   color: var(--branco-neve);
   border: none;
-  padding: 12px;
-  border-radius: 5px;
+  padding: 0.75rem;
+  border-radius: 0.3125rem;
   cursor: pointer;
   text-align: center;
 }
@@ -126,16 +158,8 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0.5rem 1rem var(--neon-efc);
-  width: 320px;
+  width: 20rem;
   position: relative;
-}
-
-.doacao-card img {
-  width: 200px;
-  height: 200px;
-  background-color: var(--branco-neve);
-  border-radius: 10px;
-  margin: 10px 0;
 }
 
 .btn-card-doacao,
@@ -146,19 +170,19 @@
 
 .banner-foods {
   position: absolute;
-  top: -10px;
+  top: -0.625rem;
   left: 50%;
   transform: translateX(-50%);
   background: #ffcc00;
   color: #333;
-  padding: 5px 15px;
-  border-radius: 20px;
+  padding: 0.3125rem 0.9375rem;
+  border-radius: 1.25rem;
   font-weight: bold;
-  font-size: 14px;
-  box-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+  font-size: 0.875rem;
+  box-shadow: 0 0 0.625rem rgba(255, 204, 0, 0.6);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .banner-foods p {
@@ -167,10 +191,10 @@
 }
 
 .banner-foods i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .doacao-card {
   position: relative;
-  padding-top: 35px;
+  padding-top: 2.1875rem;
 }

@@ -21,7 +21,7 @@
   --cor-do-bg: #121212;
   --bg-card: #1f1f1f;
   --font-cor: #c7d5e0;
-  --font-cor2: rgb(255, 255, 0);
+  --font-cor2: rgba(255, 255, 0, 0.952);
   --neon-efc: rgba(255, 226, 76, 0.8), 0 0 10px rgba(255, 226, 76, 0.7),
     0 0 20px rgba(255, 226, 76, 0.6), 0 0 40px rgba(255, 226, 76, 0.5);
   --bordar-cinza: #d1d5db;

@@ -29,12 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
         <h1>Sua doação mantém o projeto vivo!</h1>
         <p>Não é obrigatório doar, mas cada contribuição — seja de tempo, conhecimento ou recursos — faz toda a diferença.</p>
         <h2>Como ajudar?</h2>
-        <p> Se você programa, colabore com código! Precisamos de mentes criativas para evoluir a plataforma.</p>
-        <p>Se prefere doar, qualquer valor ajuda a pagar servidores, melhorar o site e criar novos projetos.</p>
+        <ul class="lista-doacao">
+            <li>Se você programa, colabore com código! Precisamos de mentes criativas para evoluir a plataforma.</li>
+            <li>Se prefere doar, qualquer valor ajuda a pagar servidores, melhorar o site e criar novos projetos.</li>
+        </ul>
         <h2>Para onde vai seu dinheiro?</h2>
-        <p>Atualizações técnicas e segurança.</p>
-        <p>Novas funcionalidades para todos.</p>
-        <p>Manutenção mensal (sem isso, o site não funciona!)</p>
+        <ul class="lista-doacao">
+          <li>Atualizações técnicas e segurança.</li>
+          <li>Novas funcionalidades para todos.</li>
+          <li>Manutenção mensal.</li>
+        </ul>
         <h2>Nem R$1,00 é pouco.</h2>
         <p>Até um cafézinho pode sustentar o projeto por mais um dia.</p>
         <p>Obrigado por acreditar na gente!🫡</p>

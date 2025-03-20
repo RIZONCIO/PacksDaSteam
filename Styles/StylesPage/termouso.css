@@ -9,18 +9,18 @@
 
 .termos h1 {
   font-family: var(--font-título);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 .termos h2 {
   font-family: var(--font-destaque);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 .termos p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -37,6 +37,6 @@
 .termos ul li::marker {
   content: "• ";
   color: var(--bg-dark);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
