@@ -31,13 +31,26 @@
   margin: 20px auto;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.banner-doacao h1 {
+  font-family: var(--font-título);
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
 
 .banner-doacao h2 {
-  font-family: var(--font-título);
+  font-family: var(--font-destaque);
   font-size: 24px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
 }
 
 .banner-doacao p {
@@ -47,10 +60,10 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.banner-doacao h1,
 .banner-doacao h2,
 .banner-doacao p {
   color: var(--font-cor2);
-  font-weight: 500;
   text-shadow: 0 0 5px var(--neon-efc);
   animation: neon-glow 1.5s infinite alternate;
 }
@@ -86,47 +99,78 @@
   margin: 10px 0;
 }
 
-#cripto-selecao {
-  appearance: none;
-  background: linear-gradient(45deg, #222, #333);
-  color: var(--branco-neve);
-  border: 2px solid #ff9900;
-  padding: 12px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  width: 220px;
-  text-align: center;
-  outline: none;
-}
-
-#cripto-selecao::-ms-expand {
-  display: none;
-}
-
-#cripto-selecao:hover {
-  background: linear-gradient(45deg, #333, #444);
-  border-color: #ff6600;
-}
-
-#cripto-selecao option {
-  background-color: #222;
-  color: var(--branco-neve);
-  font-weight: bold;
-  padding: 10px;
-}
-
-.btn-card-doacao {
+.btn-card-doacao,
+.btn-card-doacao-pago {
+  display: block;
+  width: 90%;
+  text-decoration: none;
+  max-width: 250px;
+  margin: 10px auto;
   background: var(--cor-do-bg);
   color: var(--branco-neve);
   border: none;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
 }
 
-.btn-card-doacao:hover {
+.btn-card-doacao:hover,
+.btn-card-doacao-pago:hover {
   box-shadow: 0 0.5rem 1rem var(--neon-efc);
+}
+
+.doacao-card {
+  background: var(--bg-card);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem var(--neon-efc);
+  width: 320px;
+  position: relative;
+}
+
+.doacao-card img {
+  width: 200px;
+  height: 200px;
+  background-color: var(--branco-neve);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.btn-card-doacao,
+.btn-card-doacao-pago {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.banner-foods {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffcc00;
+  color: #333;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner-foods p {
+  color: white;
+  font-weight: 600;
+}
+
+.banner-foods i {
+  font-size: 16px;
+}
+
+.doacao-card {
+  position: relative;
+  padding-top: 35px;
 }
