@@ -66,28 +66,44 @@
   background-color: white;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
-  .banner-oferta {
-    max-width: 90%;
-    margin: 1.5rem auto;
-  }
-
   .carousel {
-    max-width: 95%;
+    max-width: 50rem;
   }
 
   .carousel img {
-    width: 90%;
+    width: 75%;
   }
 
   .carousel-btn {
-    font-size: 1.25rem;
-    padding: 0.5rem;
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner-oferta {
+    max-width: 35rem;
+  }
+
+  .carousel {
+    max-width: 35rem;
+  }
+
+  .carousel img {
+    width: 70%;
+  }
+
+  .carousel-btn {
+    display: none;
+  }
+
+  .carousel-dots {
+    bottom: 0.5rem;
   }
 
   .dot {
     height: 0.5rem;
     width: 0.5rem;
+    margin: 0 0.25rem;
   }
 }

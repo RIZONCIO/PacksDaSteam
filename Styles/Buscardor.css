@@ -71,3 +71,54 @@
 .search-input {
   padding-right: 3.5rem;
 }
+
+@media (max-width: 768px) {
+  .catalog-title {
+    font-size: 2.375rem;
+  }
+
+  .search-box {
+    width: 90%;
+    max-width: 45rem;
+  }
+
+  .search-input {
+    font-size: 1.3rem;
+    padding: 0.8rem 3rem 0.8rem 1rem;
+  }
+
+  .search-icon svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .catalog-title {
+    font-size: 1.875rem;
+  }
+
+  .search-box {
+    max-width: 30rem;
+    width: 80%;
+  }
+
+  .search-input {
+    font-size: 1.2rem;
+    padding: 0.7rem 2.5rem 0.7rem 1rem;
+    border-width: 3px;
+  }
+
+  .search-icon {
+    right: 1.2rem;
+  }
+
+  .search-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .search-container {
+    padding: 0rem 0rem 1.2rem 0rem;
+  }
+}
