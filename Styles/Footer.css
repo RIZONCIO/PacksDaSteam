@@ -98,20 +98,31 @@
   padding-top: 1.25rem;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 425px) {
+  .footer-container {
+    padding: 1.25rem 0;
+    gap: 1.5rem;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
-    text-align: center;
     gap: 1.25rem;
+    padding-bottom: 0px;
+  }
+
+  .social-block {
+    margin-top: 1rem;
   }
 
   .separator {
-    height: 5rem;
+    display: none;
   }
 
-  .icons {
-    gap: 1rem;
+  .site-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    margin: 1rem 0rem 0rem;
   }
 }

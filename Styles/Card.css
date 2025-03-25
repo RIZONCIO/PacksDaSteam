@@ -79,16 +79,19 @@
   box-shadow: 0 0.25rem 0.75rem var(--brilho-azul);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 425px) {
   .cards-container {
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    margin: 0px;
+  }
+
+  .card a {
+    padding: 0.5rem 0.75rem;
   }
 
   .card img {
-    height: 12rem;
+    height: auto;
   }
 }
-
 @media (min-width: 1024px) {
   .cards-container {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));

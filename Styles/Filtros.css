@@ -156,6 +156,15 @@
   cursor: pointer;
 }
 
+.menu-hamburguer {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--font-cor);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .filtros-wrapper {
     gap: 0.625rem;
@@ -174,26 +183,35 @@
 
 @media (max-width: 425px) {
   .filtros-wrapper {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
   }
 
-  .filtro-item:nth-child(7) {
-    grid-column: span 3;
-  }
-  .filtro-item {
-    position: relative;
-  }
   .filtro-dropdown {
-    position: absolute;
+    position: fixed;
     z-index: 1000;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: 0;
+    max-height: 50vh;
+    width: 100vw;
+    background: #222;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+    overflow-y: auto;
   }
 
   .filtro-btn {
     font-size: 0.9rem;
     padding: 0.625rem 1rem;
     text-align: center;
+  }
+
+  .filtro-header {
+    gap: 0rem;
+    margin: 0rem 0rem 1rem 0rem;
   }
 
   .resultados {

@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "Tabuleiro e Cartas",
       "Realidade Virtual (VR)",
       "Hack and Slash",
-      "MMO (Massively Multiplayer Online)",
-      "MOBA (Multiplayer Online Battle Arena)",
-      "FPS (First-Person Shooter)",
-      "RTS (Estratégia Em Tempo Real)",
+      "MMO",
+      "MOBA",
+      "FPS",
+      "RTS",
     ],
     Distribuidor: [
       "Ubisoft",
@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const filtrosWrapper = document.createElement("div");
   filtrosWrapper.className = "filtros-wrapper";
+  filtroContainer.appendChild(filtrosWrapper);
 
   Object.entries(filtros).forEach(([filtro, opcoes]) => {
     const filtroDiv = document.createElement("div");
@@ -97,24 +98,35 @@ document.addEventListener("DOMContentLoaded", () => {
     filtrosWrapper.appendChild(filtroDiv);
   });
 
-  filtroContainer.appendChild(filtrosWrapper);
-
+  // Lógica para abrir e fechar menus corretamente
   document.querySelectorAll(".filtro-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      const dropdown = btn.nextElementSibling;
-      dropdown.classList.toggle("ativo");
 
-      // Fecha outros dropdowns ao abrir um novo
-      document.querySelectorAll(".filtro-dropdown").forEach((menu) => {
+      const dropdown = btn.nextElementSibling;
+      const allDropdowns = document.querySelectorAll(".filtro-dropdown");
+
+      // Fechar todos os dropdowns antes de abrir o atual
+      allDropdowns.forEach((menu) => {
         if (menu !== dropdown) menu.classList.remove("ativo");
       });
+
+      // Alternar apenas o menu clicado
+      dropdown.classList.toggle("ativo");
     });
   });
 
+  // Fecha todos os menus se clicar fora
   document.addEventListener("click", () => {
     document.querySelectorAll(".filtro-dropdown").forEach((menu) => {
       menu.classList.remove("ativo");
     });
+  });
+
+  // Lógica do menu hambúrguer
+  const botaoMenu = document.querySelector(".menu-hamburguer");
+
+  botaoMenu.addEventListener("click", () => {
+    filtrosWrapper.classList.toggle("ativo");
   });
 });
