@@ -116,7 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Fecha todos os menus se clicar fora
   document.addEventListener("click", () => {
     document.querySelectorAll(".filtro-dropdown").forEach((menu) => {
       menu.classList.remove("ativo");
