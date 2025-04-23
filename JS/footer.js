@@ -7,15 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const devOne = createSocialBlock("Matheus Coelho", [
     { href: "https://github.com/matheus-fsc", icon: "fa-brands fa-github" },
     {
-      href: "https://www.instagram.com/matheus.fsc/",
-      icon: "fa-brands fa-instagram",
-    },
-    {
       href: "https://steamcommunity.com/id/Link_The_Hero/",
       icon: "fa-brands fa-steam",
     },
     {
-      href: "https://www.linkedin.com/in/",
+      href: "https://www.linkedin.com/in/matheus-coelho-07b7711a1/",
       icon: "fa-brands fa-linkedin",
     },
   ]);
