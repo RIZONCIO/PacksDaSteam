@@ -1,4 +1,4 @@
-import { displayBundles } from './displayBundles.js';
+import { displayBundles } from "./displayBundles.js";
 
 const endpoint = "http://localhost:5005/api/bundles-detailed";
 let currentPage = 1;
