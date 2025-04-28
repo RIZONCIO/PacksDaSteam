@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 `;
 
   const images = [
-    { src: "/img/banner1.png", link: "#" },
-    { src: "/img/banner1.png", link: "#" },
-    { src: "/img/BannerGameFree2.png", link: "#" },
+    { src: "public/img/banner1.png", link: "#" },
+    { src: "public/img/banner1.png", link: "#" },
+    { src: "public/img/BannerGameFree2.png", link: "#" },
   ];
 
   let currentIndex = 0;
